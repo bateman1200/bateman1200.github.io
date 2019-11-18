@@ -6,8 +6,8 @@
 	font-family: 'Lato', sans-serif;
 	font-size:14px;
 	line-height:24px;
-	color:#6c6c6c;
-	font-weight:300;
+	color:#8e7b7bbd;
+	font-weight:500;
 }
 img{
 	border:none;
@@ -127,8 +127,8 @@ ul{
 .header-top .pull-right li::before{
 	right:0;
 	left:5px;
-	height:2px;
-	border-bottom:2px dashed #222931;
+	height:0px;
+	border-bottom:0px dashed #222931;
 	content:'';
 	position:absolute;
 	bottom:0;
@@ -136,7 +136,7 @@ ul{
 .header-top .pull-right li::after{
 	left:5px;
 	height:14px;
-	border-left:2px dashed #222931;
+	border-left:0px dashed #222931;
 	content:'';
 	position:absolute;
 	bottom:0;
@@ -153,7 +153,7 @@ ul{
 	width:100%;
 	float:left;
 	height:auto;
-	background:#ef5350;
+	background:#d5c5c5;
 	padding:3px 0;
 	position:relative;
 }
@@ -164,7 +164,7 @@ ul{
 	right:0;
 	bottom:0;
 	content:'';
-	border:3px dashed #ffcdd2;
+	border:3px dashed #fff;
 }
 .logo a,
 .logo a img{
@@ -321,7 +321,7 @@ ul{
 	float:left;
 	height:auto;
 	font-size:30px;
-	color:#ef5350;
+	color:#ff06e7;
 	font-weight:400;
 	position:relative;
 	line-height:normal;
@@ -352,7 +352,7 @@ ul{
 }
 .sale-price{
 	font-size:60px;
-	color:#111111;
+	color:#a48b8b;
 	font-weight:400;
 	line-height:normal;
 	font-family: 'Nanum Gothic', sans-serif;
@@ -433,7 +433,7 @@ ul{
 	height:95px; 
 	float:left; 
 	margin:0px 0 22px;
-	border:1px solid #f6a3a2;
+	border:1px solid #aa93924f;
 	position:relative;
 	z-index:9999;
 }
@@ -599,7 +599,7 @@ ul{
 	height:auto;
 }
 .info-list ul{
-	border:1px solid #f6a3a2;
+	border:0px solid #9d8b8ad4;
 	padding:30px;
 	width:210px;
 }
@@ -619,15 +619,15 @@ ul{
 	float:left;
 	height:auto;
 	padding:80px 0;
-	border-top:2px dashed #ef5350;
-	border-bottom:2px dashed #ef5350;
+	border-top:0px dashed #fff;
+	border-bottom:0px dashed #fff;
 	background:rgba(255,255,255,0.71);
 }
 .tab-inner{
 	width:100%;
 	float:left;
 	height:auto;
-	background:#f8e9e8 url(images/tab-bg.png) no-repeat center top;
+	background:#c1b1b02b url(images/tab-bg.png) no-repeat center top;
 	padding:40px 30px 40px 40px;
 	position:relative;
 }
@@ -635,11 +635,11 @@ ul{
 	top:-18px;
 	bottom:-18px;
 	left:-5px;
-	width:112px;
-	background:#ef5350;
+	width:0px;
+	background:#fff;
 	content:'';
 	position:absolute;
-	border-radius:55px;
+	border-radius:25px;
 	z-index:4;
 }
 .tab-inner::after{
@@ -647,10 +647,10 @@ ul{
 	bottom:-24px;
 	left:-11px;
 	width:124px;
-	background:#ffcdd2;
+	background:#f2eaeb;
 	content:'';
 	position:absolute;
-	border-radius:65px;
+	border-radius:25px;
 	z-index:3;
 }
 .tab-block{
@@ -670,7 +670,7 @@ ul{
 .tabs .tab-selector-1:checked ~ .label-block .tab-label-1, .tabs .tab-selector-2:checked ~ .label-block .tab-label-2, .tabs .tab-selector-3:checked ~ .label-block .tab-label-3, .tabs .tab-selector-4:checked ~ .label-block .tab-label-4,
 .label-block label:hover{
 	color:#fff;
-	background:#111111;
+	background:#ddcdcd75;
 }
 .tabs .tab-selector-1:checked ~ .tab-content #menu1, .tabs .tab-selector-2:checked ~ .tab-content #menu2, .tabs .tab-selector-3:checked ~ .tab-content #menu3, .tabs .tab-selector-4:checked ~ .tab-content #menu4 {
     height: auto;
@@ -709,8 +709,8 @@ ul{
 	float:left;
 	padding:6px 30px;
 	position:relative;
-	background:#d50000;
-	color:#fff;
+	background:#b7aaaab3;
+	color:#241a1a;
 	margin:0 0 23px;
 	font-family: 'Slabo 27px', serif;
 	text-align:left;
@@ -735,7 +735,7 @@ ul{
 	left:0;
 	bottom:-23px;
 	content:'';
-	background:url(images/tab-arrow2.png) no-repeat center center;
+	background:url() no-repeat center center;
 }
 .tab-content{
 	width:870px;
@@ -779,7 +779,7 @@ video.responsive-video{
 	float:left;
 	height:auto;
 	padding:46px 0 0;
-	background:rgba(239,83,80,0.71);
+	background:rgba(66, 53, 53, 0.32);
 	position:relative;
 }
 .footer .container{
@@ -804,7 +804,7 @@ video.responsive-video{
 .quick-link li a{
 	font-size:18px;
 	color:#fff;
-	display:inine-block;
+	/*! display:inine-block; */
 	line-height:23px;
 	font-weight:bold;
 }
@@ -828,7 +828,7 @@ video.responsive-video{
 	width:100%;
 	float:left;
 	height:auto;
-	color:#a75757;
+	color:#fff;
 	font-size:14px;
 	line-height:25px;
 	padding:12px 0;
@@ -844,7 +844,7 @@ video.responsive-video{
 	float:left;
 	width:360px;
 	padding:0 25px 30px 25px;
-	border:1px solid #ef5350;
+	border:0px solid #d5bfbf;
 	border-top:none;
 	text-align:left;
 	margin-right:30px;
@@ -884,7 +884,7 @@ video.responsive-video{
 	width:100%;
 	float:left;
 	height:auto;
-	border-bottom:1px solid #c62828;
+	border-bottom:1px solid #fff;
 	padding-bottom:14px;
 }
 
