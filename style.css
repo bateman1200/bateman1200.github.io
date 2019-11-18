@@ -60,7 +60,7 @@ ul{
 	width:100%;
 	float:left;
 	height:auto;
-	background:url(https://i.imgur.com/fIqgmqr.png) no-repeat center top;
+	background:url() no-repeat center top;
 	-webkit-background-size:100% auto;
 	-ms-background-size:100% auto;
 	background-size:100% auto;
@@ -69,7 +69,7 @@ ul{
 	width:100%;
 	float:left;
 	height:auto;
-	background:url(images/body-bottom-bg.png) no-repeat center bottom;
+	background:url() no-repeat center bottom;
 	-webkit-background-size:100% auto;
 	-ms-background-size:100% auto;
 	background-size:100% auto;
@@ -183,7 +183,7 @@ ul{
 	position:absolute;
 	left:-50px;
 	content:'';
-	background:url(https://i.imgur.com/fIqgmqr.png) no-repeat left top;
+	background:url() no-repeat left top;
 	top:-20px;
 }
 .inner-wrapper::after{
@@ -192,7 +192,7 @@ ul{
 	position:absolute;
 	right:-50px;
 	content:'';
-	background:url(https://i.imgur.com/fIqgmqr.png) no-repeat left top;
+	background:url() no-repeat left top;
 	top:-20px;
 }
 .menu_inner{
@@ -208,7 +208,7 @@ ul{
 	left: 9px;
     top: -20px;
 	content:'';
-	background:url(https://i.imgur.com/fIqgmqr.png) no-repeat center center;
+	background:url() no-repeat center center;
 	z-index:-1;
 }
 .menu_inner::after{
@@ -218,7 +218,7 @@ ul{
 	right: 9px;
     top: -20px;
 	content:'';
-	background:url(https://i.imgur.com/fIqgmqr.png) no-repeat center center;
+	background:url() no-repeat center center;
 	z-index:-1;
 }
 
@@ -444,7 +444,7 @@ ul{
 	content:'';
 	height:22px;
 	width:23px;
-	background:url(images/arrow.png) no-repeat center center;
+	background:url() no-repeat center center;
 }
 .frame label.thumb img {
 	cursor:pointer;
@@ -627,7 +627,7 @@ ul{
 	width:100%;
 	float:left;
 	height:auto;
-	background:#c1b1b02b url(images/tab-bg.png) no-repeat center top;
+	background:#c1b1b02b url() no-repeat center top;
 	padding:40px 30px 40px 40px;
 	position:relative;
 }
@@ -722,7 +722,7 @@ ul{
 	left:0;
 	bottom:-23px;
 	content:'';
-	background:url(images/tab-arrow.png) no-repeat center center;
+	background:url() no-repeat center center;
 }
 .tabs .tab-selector-1:checked ~ .label-block .tab-label-1::before, 
 .tabs .tab-selector-2:checked ~ .label-block .tab-label-2::before, 
