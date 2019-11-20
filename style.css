@@ -2,12 +2,11 @@
 	padding:0;
 	margin:0;
 	box-sizing:border-box;
-	font-family: 'Nanum Gothic', sans-serif;
-	font-family: 'Lato', sans-serif;
+	font-family: AdineuePRO,Helvetica,Arial,sans-serif;
 	font-size:14px;
 	line-height:24px;
-	color:#8e7b7bbd;
-	font-weight:500;
+	color:#795f5f;
+	font-weight:400;
 }
 img{
 	border:none;
@@ -60,8 +59,8 @@ ul{
 	width:100%;
 	float:left;
 	height:auto;
-	background:url() no-repeat center top;
-	-webkit-background-size:100% auto;
+	background:url() center top;/* esi backjground image-na 00000000000000*/
+	-webkit-background-size:10% auto;
 	-ms-background-size:100% auto;
 	background-size:100% auto;
 }
@@ -94,7 +93,7 @@ ul{
 	left:0;
 	top:0;
 	content:'';
-	background: #fff8f8;
+	background: #fff;
 	opacity:0.72;
 }
 .header .container{
@@ -119,7 +118,7 @@ ul{
 	vertical-align:middle;
 	display:inline-block;
 	margin-left:30px;
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: AdineuePRO,Helvetica,Arial,sans-serif;
 	padding-bottom:7px;
 	padding-right:5px;
 	position:relative;
@@ -128,7 +127,7 @@ ul{
 	right:0;
 	left:5px;
 	height:0px;
-	border-bottom:0px dashed #222931;
+	border-bottom:1px dashed #222931;
 	content:'';
 	position:absolute;
 	bottom:0;
@@ -153,9 +152,14 @@ ul{
 	width:100%;
 	float:left;
 	height:auto;
-	background:#d5c5c5;
-	padding:3px 0;
+	background:#fff;
+	padding:0px 0;
 	position:relative;
+	opacity: 1;
+  background: #632c65;
+
+background: linear-gradient(135deg, #632c65 15%,#56a5e2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#632c65', endColorstr='#56a5e2',GradientType=1 )
 }
 .menu-wrappeer::before{
 	position:absolute;
@@ -164,7 +168,7 @@ ul{
 	right:0;
 	bottom:0;
 	content:'';
-	border:3px dashed #fff;
+	border:2px dashed #b79a9ae0; 
 }
 .logo a,
 .logo a img{
@@ -234,8 +238,8 @@ ul{
 	height:auto;
 }
 .menu-container label::before {
-    border-bottom: 2px solid #fff;
-    box-shadow: 0 5px 0 0 #fff, 0 0 0 0 inset, 0 -5px 0 0 #fff;
+    border-bottom: 0px solid #fff;
+    box-shadow: 0 0px 0 0 #fff8f8, 0 0 0 0 inset, 0 -5px 0 0 #fff;
     content: "";
     height: 0;
     left: 50%;
@@ -243,7 +247,7 @@ ul{
     margin-top: -1px;
     position: absolute;
     top: 50%;
-    width: 20px;
+    width: 10px;
 }
 .switch{
 	width:100%;
@@ -253,7 +257,7 @@ ul{
 	position:relative;
 }
 .menu-container label {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    background: rgba(128, 100, 100, 0.42) none repeat scroll 0 0 !important;
     cursor: pointer;
     display: none;
     height: 35px;
@@ -263,7 +267,7 @@ ul{
     top: 4px;
     width: 40px;
     z-index: 9999;
-	border:1px solid #fff;
+	border:0px solid #fff;
 }
 
 #navbar{
@@ -285,13 +289,19 @@ ul{
 	line-height:24px;
 	display:inline-block;
 	padding:8px 10px;
-	font-weight:700;
-	font-family: 'Nanum Gothic', sans-serif;
+	font-weight:300;
+	font-family: AdineuePRO,Helvetica,Arial,sans-serif;
 }
 #navbar ul li a:hover,
-#navbar ul li.active a{
-	color:#fff;
-	background:#8e7b7bbd;
+#navbar ul li.active a{ 
+	
+	color:#0ff;
+	background: #c3C3c3 ;
+	opacity: 1;
+  background: #632c65;
+
+background: linear-gradient(135deg, #632c65 15%,#56a5e2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#632c65', endColorstr='#56a5e2',GradientType=1 )/* <- esi menui hover guinna 000000000000000000000000000000*/
 }
 
 /*========================== Content =========================*/
@@ -325,7 +335,7 @@ ul{
 	font-weight:400;
 	position:relative;
 	line-height:normal;
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: AdineuePRO,Helvetica,Arial,sans-serif;
 	text-align:center;
 	margin:0 0 16px;
 }
@@ -355,7 +365,7 @@ ul{
 	color:#a48b8b;
 	font-weight:400;
 	line-height:normal;
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: AdineuePRO,Helvetica,Arial,sans-serif;
 }
 
 /*============================== Slider ========================*/
@@ -627,16 +637,22 @@ ul{
 	width:100%;
 	float:left;
 	height:auto;
-	background:#c1b1b02b url() no-repeat center top;
+	background:#c1b1b030 url() no-repeat center top;
 	padding:40px 30px 40px 40px;
 	position:relative;
+	opacity: 1;
+  background: #632c65;
+background: -moz-linear-gradient(-45deg, #632c6530 15%, #56a5e230 100%);
+background: -webkit-linear-gradient(-45deg, #632c6530 15%,#56a5e230 100%);
+background: linear-gradient(135deg, #632c6590 15%,#56a5e290 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#632c6530', endColorstr='#56a5e230',GradientType=1 )
 }
 .tab-inner::before{
 	top:-18px;
 	bottom:-18px;
 	left:-5px;
 	width:0px;
-	background:#fff;
+	background:#e1d7d7;
 	content:'';
 	position:absolute;
 	border-radius:25px;
@@ -647,11 +663,17 @@ ul{
 	bottom:-24px;
 	left:-11px;
 	width:124px;
-	background:#f2eaeb;
+	background:#f2eaebf0;
 	content:'';
 	position:absolute;
 	border-radius:25px;
 	z-index:3;
+	opacity: 1;
+  background: #632c65;
+background: -moz-linear-gradient(-45deg, #632c65 15%, #56a5e2 100%);
+background: -webkit-linear-gradient(-45deg, #632c65 15%,#56a5e2 100%);
+background: linear-gradient(135deg, #632c6590 15%,#56a5e290 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#632c6570', endColorstr='#56a5e270',GradientType=1 )
 }
 .tab-block{
 	width:100%;
@@ -748,8 +770,8 @@ ul{
 	font-size:14px;
 	line-height:24px;
 	font-weight:400;
-	color:#666666;
-	font-family:'Nanum Gothic', sans-serif;
+	color:#fff;
+	font-family:AdineuePRO,Helvetica,Arial,sans-serif;
 }
 .panel-left{
 	width:50%;
@@ -781,6 +803,10 @@ video.responsive-video{
 	padding:46px 0 0;
 	background:rgba(66, 53, 53, 0.32);
 	position:relative;
+	opacity: 1;
+  background: #632c65;
+background: linear-gradient(135deg, #632c65 15%,#56a5e2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#632c65', endColorstr='#56a5e2',GradientType=1 )
 }
 .footer .container{
 	position:relative;
@@ -809,7 +835,7 @@ video.responsive-video{
 	font-weight:bold;
 }
 .quick-link li a:hover{
-	color:#887474;
+	color:#0ff;
 }
 .footer .info{
 	width:100%;
