@@ -187,21 +187,22 @@ ul{
 .frame input#push12:checked~div {
  margin-top:0
 }
-.frame input#push11:checked~div,
-.frame input#push7:checked~div,
-.frame input#push4:checked~div,
-.frame input#push8:checked~div {
- margin-top:-1062px
-}
 .frame input#push2:checked~div,
 .frame input#push10:checked~div,
 .frame input#push1:checked~div,
 .frame input#push5:checked~div {
  margin-top:-531px
 }
+.frame input#push11:checked~div,
+.frame input#push7:checked~div,
+.frame input#push4:checked~div,
+.frame input#push8:checked~div {
+ margin-top:0px
+}
+
 .frame input#push6:checked~div,
 .frame input#push9:checked~div {
- margin-top:-1593px
+ margin-top:-531px
 }
 .frame input#pic1:checked~.lab1,
 .frame input#pic2:checked~.lab2,
