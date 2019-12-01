@@ -684,7 +684,7 @@ body{
     -ms-animation: titleAnimation 24s linear infinite 0s;
     animation: titleAnimation 24s linear infinite 0s;
 }
-.cb-slideshow li:nth-child(1) span { background-image: url(https://i.imgur.com/l5ZGpBR.jpg); }
+.cb-slideshow li:nth-child(1) span { background-image: url(https://i.imgur.com/Gnml7Qj.jpg); }
 .cb-slideshow li:nth-child(2) span {
     background-image: url(https://i.imgur.com/hni83KN.jpg);
     -webkit-animation-delay: 6s;
@@ -702,7 +702,7 @@ body{
     animation-delay: 12s;
 }
 .cb-slideshow li:nth-child(4) span {
-    background-image: url(https://i.imgur.com/Gnml7Qj.jpg);
+    background-image: url(https://i.imgur.com/l5ZGpBR.jpg);
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
