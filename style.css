@@ -1441,13 +1441,14 @@ body{
 {
       .device_smartphone{visibility:hidden}
 					.device_desktop{visibility:visible}
-	.overlay{background-image: url(https://i.imgur.com/5aYY6zO.png)}
+	
 }
   
 @media (pointer: coarse)
 {
       .device_smartphone{visibility:visible}
 					.device_desktop{visibility:hidden}
+	.overlay{background-image: url(https://i.imgur.com/5aYY6zO.png)}
 
 }
 
