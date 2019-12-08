@@ -1397,6 +1397,8 @@ body{
 	color:#5a8990;
 	font-weight:normal;
 }
+
+
 .overlay{
 	position:absolute;
 	left:35px;
@@ -1406,7 +1408,7 @@ body{
 	text-align:center;
 	opacity:0;
 	visibility:hidden;
-	background:rgba(30,93,103,0.75);
+	background:rgba(30,93,103,0.35);
 	-webkit-border-radius:25px;
 	-moz-border-radius:25px;
 	border-radius:25px;
@@ -1414,13 +1416,15 @@ body{
 	-moz-transition:all 0.25s ease-in-out;
 	-ms-transition:all 0.25s ease-in-out;
 	transition:all 0.25s ease-in-out;
+
+	
 }
 .featured-block ul li:hover .overlay{
 	opacity:1;
 	visibility:visible;
 } 
 .overlay a{
-	font-size:18px;
+	font-size:28px;
 	color:#fff;
 	text-transform:capitalize;
 	position:absolute;
@@ -1431,6 +1435,20 @@ body{
 	-ms-transform:translate(-50%,-50%);
 	transform:translate(-50%,-50%);
 	white-space:nowrap;
+}
+
+@media (pointer: fine)
+{
+      .device_smartphone{visibility:hidden}
+					.device_desktop{visibility:visible}
+	.overlay{background-image: url(https://i.imgur.com/5aYY6zO.png)}
+}
+  
+@media (pointer: coarse)
+{
+      .device_smartphone{visibility:visible}
+					.device_desktop{visibility:hidden}
+
 }
 
 .footer{
