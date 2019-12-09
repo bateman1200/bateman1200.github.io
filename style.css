@@ -1440,18 +1440,14 @@ body{
 @media (pointer: fine)
 {
       .device_smartphone{visibility:hidden}
-					.device_desktop{visibility:visible}
+      .device_desktop{visibility:visible}
 	
 }
   
 @media (pointer: coarse)
 {
-      .device_smartphone{visibility:hidden}
-					.device_desktop{visibility:hidden}
-	.device_iphone{visibility: visible}
-	.device_android{visibility:visible}
-	.overlay{background-image: url(https://i.imgur.com/5aYY6zO.png)}
-
+      .device_smartphone{visibility:visible}
+	.device_desktop{visibility:hidden}
 }
 
 .footer{
